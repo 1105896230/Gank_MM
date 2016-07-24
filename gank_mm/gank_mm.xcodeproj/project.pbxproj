@@ -14,6 +14,9 @@
 		192A79741D450B950047DA27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192A79721D450B950047DA27 /* LaunchScreen.storyboard */; };
 		192A797F1D450B950047DA27 /* gank_mmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A797E1D450B950047DA27 /* gank_mmTests.m */; };
 		192A798A1D450B950047DA27 /* gank_mmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A79891D450B950047DA27 /* gank_mmUITests.m */; };
+		192A799C1D45179F0047DA27 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A799B1D45179F0047DA27 /* BaseNavigationController.m */; };
+		192A79A11D4518730047DA27 /* BaseUiTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A79A01D4518730047DA27 /* BaseUiTabController.m */; };
+		192A79AE1D4519190047DA27 /* GirlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A79AD1D4519190047DA27 /* GirlViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,13 @@
 		192A79851D450B950047DA27 /* gank_mmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gank_mmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		192A79891D450B950047DA27 /* gank_mmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gank_mmUITests.m; sourceTree = "<group>"; };
 		192A798B1D450B950047DA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192A799A1D45179F0047DA27 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		192A799B1D45179F0047DA27 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		192A799E1D45182F0047DA27 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		192A799F1D4518730047DA27 /* BaseUiTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUiTabController.h; sourceTree = "<group>"; };
+		192A79A01D4518730047DA27 /* BaseUiTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUiTabController.m; sourceTree = "<group>"; };
+		192A79AC1D4519190047DA27 /* GirlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GirlViewController.h; sourceTree = "<group>"; };
+		192A79AD1D4519190047DA27 /* GirlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GirlViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,14 @@
 		192A79631D450B950047DA27 /* gank_mm */ = {
 			isa = PBXGroup;
 			children = (
-				192A79671D450B950047DA27 /* AppDelegate.h */,
-				192A79681D450B950047DA27 /* AppDelegate.m */,
+				192A79A51D4518BA0047DA27 /* model */,
+				192A79A41D45189D0047DA27 /* 设置 */,
+				192A79A31D4518950047DA27 /* 干货 */,
+				192A79A21D45188B0047DA27 /* 美女 */,
+				192A799D1D4518060047DA27 /* others */,
+				192A79991D4517540047DA27 /* base */,
 				192A796A1D450B950047DA27 /* ViewController.h */,
 				192A796B1D450B950047DA27 /* ViewController.m */,
-				192A79701D450B950047DA27 /* Assets.xcassets */,
-				192A79721D450B950047DA27 /* LaunchScreen.storyboard */,
-				192A79751D450B950047DA27 /* Info.plist */,
 				192A79641D450B950047DA27 /* Supporting Files */,
 			);
 			path = gank_mm;
@@ -114,6 +125,9 @@
 		192A79641D450B950047DA27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				192A79701D450B950047DA27 /* Assets.xcassets */,
+				192A79721D450B950047DA27 /* LaunchScreen.storyboard */,
+				192A79751D450B950047DA27 /* Info.plist */,
 				192A79651D450B950047DA27 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -135,6 +149,105 @@
 				192A798B1D450B950047DA27 /* Info.plist */,
 			);
 			path = gank_mmUITests;
+			sourceTree = "<group>";
+		};
+		192A79991D4517540047DA27 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				192A799A1D45179F0047DA27 /* BaseNavigationController.h */,
+				192A799B1D45179F0047DA27 /* BaseNavigationController.m */,
+				192A799F1D4518730047DA27 /* BaseUiTabController.h */,
+				192A79A01D4518730047DA27 /* BaseUiTabController.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		192A799D1D4518060047DA27 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				192A79671D450B950047DA27 /* AppDelegate.h */,
+				192A79681D450B950047DA27 /* AppDelegate.m */,
+				192A799E1D45182F0047DA27 /* PrefixHeader.pch */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+		192A79A21D45188B0047DA27 /* 美女 */ = {
+			isa = PBXGroup;
+			children = (
+				192A79A71D4518D90047DA27 /* view */,
+				192A79A61D4518D10047DA27 /* controller */,
+			);
+			name = "美女";
+			sourceTree = "<group>";
+		};
+		192A79A31D4518950047DA27 /* 干货 */ = {
+			isa = PBXGroup;
+			children = (
+				192A79A91D4518E90047DA27 /* controller */,
+				192A79A81D4518E20047DA27 /* view */,
+			);
+			name = "干货";
+			sourceTree = "<group>";
+		};
+		192A79A41D45189D0047DA27 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				192A79AB1D4518F70047DA27 /* view */,
+				192A79AA1D4518F10047DA27 /* contorller */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		192A79A51D4518BA0047DA27 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		192A79A61D4518D10047DA27 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				192A79AC1D4519190047DA27 /* GirlViewController.h */,
+				192A79AD1D4519190047DA27 /* GirlViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		192A79A71D4518D90047DA27 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		192A79A81D4518E20047DA27 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		192A79A91D4518E90047DA27 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		192A79AA1D4518F10047DA27 /* contorller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = contorller;
+			sourceTree = "<group>";
+		};
+		192A79AB1D4518F70047DA27 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192A79AE1D4519190047DA27 /* GirlViewController.m in Sources */,
+				192A79A11D4518730047DA27 /* BaseUiTabController.m in Sources */,
+				192A799C1D45179F0047DA27 /* BaseNavigationController.m in Sources */,
 				192A796C1D450B950047DA27 /* ViewController.m in Sources */,
 				192A79691D450B950047DA27 /* AppDelegate.m in Sources */,
 				192A79661D450B950047DA27 /* main.m in Sources */,

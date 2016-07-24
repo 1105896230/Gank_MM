@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseUiTabController.h"
 
 @interface AppDelegate ()
+
+@property(nonatomic,strong)UIWindow *topWindow;
 
 @end
 
@@ -17,19 +20,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    
-    UIViewController *viewController = [[UIViewController alloc] init];
-    self.window.rootViewController = viewController;
-    
-    self.window.backgroundColor = [UIColor purpleColor];
-    [self.window makeKeyAndVisible];
-    
+    [self createWindow];
       return YES;
 }
 
+-(void)createWindow{
+//    创建窗口
+    self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    BaseUiTabController *controller=[[BaseUiTabController alloc]init];
+    self.window.rootViewController=controller;
+//    显示窗口
+    [self.window makeKeyAndVisible];
+    
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
