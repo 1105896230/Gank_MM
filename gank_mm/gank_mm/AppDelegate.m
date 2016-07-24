@@ -17,7 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    
+    UIViewController *viewController = [[UIViewController alloc] init];
+    self.window.rootViewController = viewController;
+    
+    self.window.backgroundColor = [UIColor purpleColor];
+    [self.window makeKeyAndVisible];
+    
+      return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
