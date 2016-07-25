@@ -9,6 +9,7 @@
 #import "GirlViewController.h"
 
 @interface GirlViewController ()
+@property(nonatomic,strong)IBOutlet UITableView *tabview;
 
 @end
 
@@ -16,11 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initViews];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
+-(void) initViews{
+}
 
 @end

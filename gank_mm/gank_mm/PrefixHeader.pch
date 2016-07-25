@@ -12,4 +12,13 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+#ifdef DEBUG
+#define FMTLog(...)NSLog(__VA_ARGS__)
+#else
+#define FMTLog(...)
 #endif /* PrefixHeader_pch */
+
+//屏幕的宽度
+#define FMTScreenH [UIScreen mainScreen].bounds.size.width
+#define FMTScreenH [UIScreen mainScreen].bounds.size.height
+#define FMTcreenBounds [UIScreen mainScreen].bounds

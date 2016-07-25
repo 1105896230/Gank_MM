@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "BaseUiTabController.h"
-
+#import "BaseNavigationController.h"
+#import "GankViewController.h"
 @interface AppDelegate ()
 
 @property(nonatomic,strong)UIWindow *topWindow;
@@ -29,9 +30,9 @@
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     BaseUiTabController *controller=[[BaseUiTabController alloc]init];
     self.window.rootViewController=controller;
+
 //    显示窗口
     [self.window makeKeyAndVisible];
-    
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

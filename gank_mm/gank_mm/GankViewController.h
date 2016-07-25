@@ -1,5 +1,5 @@
 //
-//  BaseUiTabController.h
+//  GankViewController.h
 //  gank_mm
 //
 //  Created by 否命题 on 16/7/24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseUiTabController : UITabBarController
+@interface GankViewController : UIViewController
 
 @end
