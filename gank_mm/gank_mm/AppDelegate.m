@@ -8,8 +8,6 @@
 
 #import "AppDelegate.h"
 #import "BaseUiTabController.h"
-#import "BaseNavigationController.h"
-#import "GankViewController.h"
 @interface AppDelegate ()
 
 @property(nonatomic,strong)UIWindow *topWindow;

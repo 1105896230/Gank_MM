@@ -9,14 +9,16 @@
 #import "GirlViewController.h"
 #import "NETUtils.h"
 #import "NetApi.h"
-
+#import "GankModel.h"
+#import "MJExtension.h"
 static NSString *tagID=@"girl";
 /**
  *  每页加载的大小
  */
 static const NSInteger pageSize = 20;
-@interface GirlViewController ()
-@property(weak,nonatomic)UITableView *tableview;
+@interface GirlViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property(strong,nonatomic)UITableView *tableview;
 @property(nonatomic,assign)NSInteger pageIndex;
 @property(nonnull,strong)NSMutableArray *gank;
 @end
@@ -25,14 +27,30 @@ static const NSInteger pageSize = 20;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    _tableview=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
-//    _tableview.delegate=self;
-//    _tableview.dataSource=self;
-//    [self.view addSubview:_tableview];
-//    self.view.backgroundColor=[UIColor redColor];
+    _tableview=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    _tableview.delegate=self;
+    _tableview.dataSource=self;
+    [self.view addSubview:_tableview];
+    self.view.backgroundColor=[UIColor redColor];
     [self loadNetData];
 }
+//获取每组元素的个数，必须要要实现
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 5;
+}
+//设置组数
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 3;
+}
 
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell* cell=[_tableview dequeueReusableCellWithIdentifier:tagID];
+    if (cell==nil) {
+        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tagID];
+    }
+    cell.textLabel.text=@"haha";
+    return cell;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
@@ -41,15 +59,19 @@ static const NSInteger pageSize = 20;
     if (![NETUtils isExitNetWork]) {
         NSLog(@"没有网络");
     }else{
-        NSLog(@"有网络");
+        
+    if (_pageIndex==0) {
+         _pageIndex = 1;
     }
-    _pageIndex = 1;
-
     [NetApi getGankDataWithType:@"福利" pageSize:pageSize pageIndex:_pageIndex success:^(NSDictionary *dict){
-      
+        _pageIndex+=1;
+//        json转模型
+        self.gank=[GankModel mj_objectArrayWithKeyValuesArray:dict[@"results"]];
     }failure:^(NSString *text) {
         NSLog(@"----loadNewDatas-失败----%@",text);
     }];
+    }
+    
 }
 
 @end

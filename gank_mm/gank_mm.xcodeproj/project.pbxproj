@@ -40,6 +40,19 @@
 		19CA3FE81D495FCE00DC6793 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FD31D495FCE00DC6793 /* UIProgressView+AFNetworking.m */; };
 		19CA3FE91D495FCE00DC6793 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FD51D495FCE00DC6793 /* UIRefreshControl+AFNetworking.m */; };
 		19CA3FEA1D495FCE00DC6793 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FD71D495FCE00DC6793 /* UIWebView+AFNetworking.m */; };
+		19CA3FED1D4966EB00DC6793 /* GankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FEC1D4966EB00DC6793 /* GankModel.m */; };
+		19CA40081D49683500DC6793 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FF01D49683500DC6793 /* MJExtensionConst.m */; };
+		19CA40091D49683500DC6793 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FF21D49683500DC6793 /* MJFoundation.m */; };
+		19CA400A1D49683500DC6793 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FF41D49683500DC6793 /* MJProperty.m */; };
+		19CA400B1D49683500DC6793 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FF61D49683500DC6793 /* MJPropertyKey.m */; };
+		19CA400C1D49683500DC6793 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FF81D49683500DC6793 /* MJPropertyType.m */; };
+		19CA400D1D49683500DC6793 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FFA1D49683500DC6793 /* NSObject+MJClass.m */; };
+		19CA400E1D49683500DC6793 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FFC1D49683500DC6793 /* NSObject+MJCoding.m */; };
+		19CA400F1D49683500DC6793 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA3FFE1D49683500DC6793 /* NSObject+MJKeyValue.m */; };
+		19CA40101D49683500DC6793 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA40001D49683500DC6793 /* NSObject+MJProperty.m */; };
+		19CA40111D49683500DC6793 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA40021D49683500DC6793 /* NSString+MJExtension.m */; };
+		19CA40121D49683500DC6793 /* MJExtension.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 19CA40031D49683500DC6793 /* MJExtension.xcconfig */; };
+		19CA40131D49683500DC6793 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA40041D49683500DC6793 /* MJExtension-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +143,32 @@
 		19CA3FD51D495FCE00DC6793 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		19CA3FD61D495FCE00DC6793 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		19CA3FD71D495FCE00DC6793 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		19CA3FEB1D4966EB00DC6793 /* GankModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GankModel.h; sourceTree = "<group>"; };
+		19CA3FEC1D4966EB00DC6793 /* GankModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GankModel.m; sourceTree = "<group>"; };
+		19CA3FEE1D49683500DC6793 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		19CA3FEF1D49683500DC6793 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		19CA3FF01D49683500DC6793 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		19CA3FF11D49683500DC6793 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		19CA3FF21D49683500DC6793 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		19CA3FF31D49683500DC6793 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		19CA3FF41D49683500DC6793 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		19CA3FF51D49683500DC6793 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		19CA3FF61D49683500DC6793 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		19CA3FF71D49683500DC6793 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		19CA3FF81D49683500DC6793 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		19CA3FF91D49683500DC6793 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		19CA3FFA1D49683500DC6793 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		19CA3FFB1D49683500DC6793 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		19CA3FFC1D49683500DC6793 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		19CA3FFD1D49683500DC6793 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		19CA3FFE1D49683500DC6793 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		19CA3FFF1D49683500DC6793 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		19CA40001D49683500DC6793 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		19CA40011D49683500DC6793 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		19CA40021D49683500DC6793 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		19CA40031D49683500DC6793 /* MJExtension.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		19CA40041D49683500DC6793 /* MJExtension-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		19CA40051D49683500DC6793 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +336,8 @@
 		192A79A51D4518BA0047DA27 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				19CA3FEB1D4966EB00DC6793 /* GankModel.h */,
+				19CA3FEC1D4966EB00DC6793 /* GankModel.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -361,6 +402,7 @@
 		19CA3FAE1D495FB500DC6793 /* ohterFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				19CA40071D49683500DC6793 /* MJExtension */,
 				19CA3FD91D495FCE00DC6793 /* AFNetworking */,
 			);
 			name = ohterFrameWork;
@@ -457,6 +499,47 @@
 			);
 			name = AFNetworking;
 			path = ../../../../gankmm/GankMM_iOS/GankMM_iOS/Pods/AFNetworking;
+			sourceTree = "<group>";
+		};
+		19CA40061D49683500DC6793 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19CA40031D49683500DC6793 /* MJExtension.xcconfig */,
+				19CA40041D49683500DC6793 /* MJExtension-dummy.m */,
+				19CA40051D49683500DC6793 /* MJExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		19CA40071D49683500DC6793 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				19CA3FEE1D49683500DC6793 /* MJExtension.h */,
+				19CA3FEF1D49683500DC6793 /* MJExtensionConst.h */,
+				19CA3FF01D49683500DC6793 /* MJExtensionConst.m */,
+				19CA3FF11D49683500DC6793 /* MJFoundation.h */,
+				19CA3FF21D49683500DC6793 /* MJFoundation.m */,
+				19CA3FF31D49683500DC6793 /* MJProperty.h */,
+				19CA3FF41D49683500DC6793 /* MJProperty.m */,
+				19CA3FF51D49683500DC6793 /* MJPropertyKey.h */,
+				19CA3FF61D49683500DC6793 /* MJPropertyKey.m */,
+				19CA3FF71D49683500DC6793 /* MJPropertyType.h */,
+				19CA3FF81D49683500DC6793 /* MJPropertyType.m */,
+				19CA3FF91D49683500DC6793 /* NSObject+MJClass.h */,
+				19CA3FFA1D49683500DC6793 /* NSObject+MJClass.m */,
+				19CA3FFB1D49683500DC6793 /* NSObject+MJCoding.h */,
+				19CA3FFC1D49683500DC6793 /* NSObject+MJCoding.m */,
+				19CA3FFD1D49683500DC6793 /* NSObject+MJKeyValue.h */,
+				19CA3FFE1D49683500DC6793 /* NSObject+MJKeyValue.m */,
+				19CA3FFF1D49683500DC6793 /* NSObject+MJProperty.h */,
+				19CA40001D49683500DC6793 /* NSObject+MJProperty.m */,
+				19CA40011D49683500DC6793 /* NSString+MJExtension.h */,
+				19CA40021D49683500DC6793 /* NSString+MJExtension.m */,
+				19CA40061D49683500DC6793 /* Support Files */,
+			);
+			name = MJExtension;
+			path = ../../../../gankmm/GankMM_iOS/GankMM_iOS/Pods/MJExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -565,6 +648,7 @@
 				19CA3FE01D495FCE00DC6793 /* AFNetworking.xcconfig in Resources */,
 				192A79741D450B950047DA27 /* LaunchScreen.storyboard in Resources */,
 				192A79711D450B950047DA27 /* Assets.xcassets in Resources */,
+				19CA40121D49683500DC6793 /* MJExtension.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,8 +674,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				19CA3FDB1D495FCE00DC6793 /* AFURLSessionManager.m in Sources */,
+				19CA400B1D49683500DC6793 /* MJPropertyKey.m in Sources */,
 				19CA3FE71D495FCE00DC6793 /* UIImageView+AFNetworking.m in Sources */,
+				19CA40131D49683500DC6793 /* MJExtension-dummy.m in Sources */,
 				19CA3FE61D495FCE00DC6793 /* UIButton+AFNetworking.m in Sources */,
+				19CA400A1D49683500DC6793 /* MJProperty.m in Sources */,
 				192A79A11D4518730047DA27 /* BaseUiTabController.m in Sources */,
 				192A799C1D45179F0047DA27 /* BaseNavigationController.m in Sources */,
 				19CA3FE11D495FCE00DC6793 /* AFNetworking-dummy.m in Sources */,
@@ -600,12 +687,18 @@
 				19CA3FE51D495FCE00DC6793 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				19CA3FDC1D495FCE00DC6793 /* AFNetworkReachabilityManager.m in Sources */,
 				19CA3FDA1D495FCE00DC6793 /* AFHTTPSessionManager.m in Sources */,
+				19CA40101D49683500DC6793 /* NSObject+MJProperty.m in Sources */,
+				19CA400C1D49683500DC6793 /* MJPropertyType.m in Sources */,
 				192A79691D450B950047DA27 /* AppDelegate.m in Sources */,
+				19CA3FED1D4966EB00DC6793 /* GankModel.m in Sources */,
 				19CA3FDF1D495FCE00DC6793 /* AFURLResponseSerialization.m in Sources */,
 				19CA3FDE1D495FCE00DC6793 /* AFURLRequestSerialization.m in Sources */,
+				19CA40091D49683500DC6793 /* MJFoundation.m in Sources */,
 				19CA3FE41D495FCE00DC6793 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				19CA40081D49683500DC6793 /* MJExtensionConst.m in Sources */,
 				19CA3FE21D495FCE00DC6793 /* AFAutoPurgingImageCache.m in Sources */,
 				19CA3FDD1D495FCE00DC6793 /* AFSecurityPolicy.m in Sources */,
+				19CA400F1D49683500DC6793 /* NSObject+MJKeyValue.m in Sources */,
 				1907E5E31D46C5D2002D8878 /* GirlViewController.m in Sources */,
 				19CA3FAD1D495DB100DC6793 /* NetApi.m in Sources */,
 				19700CD21D46D213001BD75E /* MBProgressHUD.m in Sources */,
@@ -613,9 +706,12 @@
 				19CA3FE91D495FCE00DC6793 /* UIRefreshControl+AFNetworking.m in Sources */,
 				19CA3FE81D495FCE00DC6793 /* UIProgressView+AFNetworking.m in Sources */,
 				197B7C981D4563CB003C9328 /* GankViewController.m in Sources */,
+				19CA40111D49683500DC6793 /* NSString+MJExtension.m in Sources */,
 				19CA3FEA1D495FCE00DC6793 /* UIWebView+AFNetworking.m in Sources */,
 				19700CCE1D46D17E001BD75E /* Reachability.m in Sources */,
+				19CA400E1D49683500DC6793 /* NSObject+MJCoding.m in Sources */,
 				192A79661D450B950047DA27 /* main.m in Sources */,
+				19CA400D1D49683500DC6793 /* NSObject+MJClass.m in Sources */,
 				19CA3FE31D495FCE00DC6793 /* AFImageDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
