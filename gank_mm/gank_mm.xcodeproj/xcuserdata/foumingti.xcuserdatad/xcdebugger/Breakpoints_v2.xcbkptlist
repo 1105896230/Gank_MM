@@ -6,49 +6,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "gank_mm/GirlViewController.m"
+            timestampString = "491348571.886721"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "pageIndex"
+            landmarkType = "19">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "gank_mm/GirlViewController.m"
-            timestampString = "491086637.933825"
+            timestampString = "491348571.886721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "tabview"
-            landmarkType = "19">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[GirlViewController tabview]"
-                  moduleName = "gank_mm"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/foumingti/Desktop/git_demo/Gank_MM/gank_mm/gank_mm/GirlViewController.m"
-                  timestampString = "491085329.419661"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[GirlViewController setTabview:]"
-                  moduleName = "gank_mm"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/foumingti/Desktop/git_demo/Gank_MM/gank_mm/gank_mm/GirlViewController.m"
-                  timestampString = "491085329.419893"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "49">
-               </Location>
-            </Locations>
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-loadNetData"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

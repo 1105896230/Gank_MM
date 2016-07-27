@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0C4E5E638E5A7091E2463922A3183139D3D2D309",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0C4E5E638E5A7091E2463922A3183139D3D2D309" : 0,
+    "235D89B875367D6815875CD1D28BE3F85D17664F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EFF8B9F1-2316-4725-8C6D-5AEB7A0B4AFA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0C4E5E638E5A7091E2463922A3183139D3D2D309" : "Gank_MM\/",
+    "235D89B875367D6815875CD1D28BE3F85D17664F" : "..\/gankmm\/GankMM_iOS"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "gank_mm",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "gank_mm\/gank_mm.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:1105896230\/Gank_MM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C4E5E638E5A7091E2463922A3183139D3D2D309"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:maning0303\/GankMM_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "235D89B875367D6815875CD1D28BE3F85D17664F"
+    }
+  ]
+}

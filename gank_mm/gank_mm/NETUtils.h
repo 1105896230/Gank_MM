@@ -1,13 +1,14 @@
 //
-//  GirlViewController.h
+//  NETUtils.h
 //  gank_mm
 //
 //  Created by 否命题 on 16/7/25.
 //  Copyright © 2016年 itcast. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface GirlViewController : UIViewController
+@interface NETUtils : NSObject
 
++(BOOL)isExitNetWork;
 @end
