@@ -53,6 +53,8 @@
 		19CA40111D49683500DC6793 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA40021D49683500DC6793 /* NSString+MJExtension.m */; };
 		19CA40121D49683500DC6793 /* MJExtension.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 19CA40031D49683500DC6793 /* MJExtension.xcconfig */; };
 		19CA40131D49683500DC6793 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA40041D49683500DC6793 /* MJExtension-dummy.m */; };
+		19CA40181D496E6600DC6793 /* MyGirlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CA40171D496E6600DC6793 /* MyGirlCell.m */; };
+		19CA401A1D496EAF00DC6793 /* MyGirlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19CA40191D496EAF00DC6793 /* MyGirlCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +171,9 @@
 		19CA40031D49683500DC6793 /* MJExtension.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
 		19CA40041D49683500DC6793 /* MJExtension-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
 		19CA40051D49683500DC6793 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		19CA40161D496E6600DC6793 /* MyGirlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGirlCell.h; sourceTree = "<group>"; };
+		19CA40171D496E6600DC6793 /* MyGirlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGirlCell.m; sourceTree = "<group>"; };
+		19CA40191D496EAF00DC6793 /* MyGirlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyGirlCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,6 +359,9 @@
 		192A79A71D4518D90047DA27 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				19CA40161D496E6600DC6793 /* MyGirlCell.h */,
+				19CA40171D496E6600DC6793 /* MyGirlCell.m */,
+				19CA40191D496EAF00DC6793 /* MyGirlCell.xib */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -649,6 +657,7 @@
 				192A79741D450B950047DA27 /* LaunchScreen.storyboard in Resources */,
 				192A79711D450B950047DA27 /* Assets.xcassets in Resources */,
 				19CA40121D49683500DC6793 /* MJExtension.xcconfig in Resources */,
+				19CA401A1D496EAF00DC6793 /* MyGirlCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +691,7 @@
 				192A79A11D4518730047DA27 /* BaseUiTabController.m in Sources */,
 				192A799C1D45179F0047DA27 /* BaseNavigationController.m in Sources */,
 				19CA3FE11D495FCE00DC6793 /* AFNetworking-dummy.m in Sources */,
+				19CA40181D496E6600DC6793 /* MyGirlCell.m in Sources */,
 				1907E5E81D46C8A7002D8878 /* NETUtils.m in Sources */,
 				192A796C1D450B950047DA27 /* ViewController.m in Sources */,
 				19CA3FE51D495FCE00DC6793 /* UIActivityIndicatorView+AFNetworking.m in Sources */,

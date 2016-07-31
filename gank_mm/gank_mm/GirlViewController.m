@@ -11,6 +11,7 @@
 #import "NetApi.h"
 #import "GankModel.h"
 #import "MJExtension.h"
+#import "MyGirlCell.h"
 static NSString *tagID=@"girl";
 /**
  *  每页加载的大小
@@ -30,6 +31,9 @@ static const NSInteger pageSize = 20;
     _tableview=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _tableview.delegate=self;
     _tableview.dataSource=self;
+    //注册
+    [self.tableview registerNib:[UINib nibWithNibName:NSStringFromClass([MyGirlCell class]) bundle:nil] forCellReuseIdentifier:tagID];
+    
     [self.view addSubview:_tableview];
     self.view.backgroundColor=[UIColor redColor];
     [self loadNetData];
@@ -44,11 +48,8 @@ static const NSInteger pageSize = 20;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell* cell=[_tableview dequeueReusableCellWithIdentifier:tagID];
-    if (cell==nil) {
-        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tagID];
-    }
-    cell.textLabel.text=@"haha";
+    MyGirlCell* cell=[_tableview dequeueReusableCellWithIdentifier:tagID];
+    
     return cell;
 }
 - (void)didReceiveMemoryWarning {
